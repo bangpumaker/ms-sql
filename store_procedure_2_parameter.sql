@@ -10,5 +10,5 @@ BEGIN
         Products
 	WHERE
 		UnitPrice >= @min_unit_price AND
-		UnitPrice <= @min_unit_price AND
+		UnitPrice <= @max_unit_price;
 END;
